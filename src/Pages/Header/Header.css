@@ -4,7 +4,8 @@
   text-align: center;
   margin: auto;
   width: 80%;
-  background-color: #1e022c;
+  background-color: #fff5da;
+
   color: white;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .tabs__logo__tab:hover {
-  border-bottom: 5px solid #821169;
+  border-bottom: 5px solid #fa6d75;
   cursor: pointer;
 }
 

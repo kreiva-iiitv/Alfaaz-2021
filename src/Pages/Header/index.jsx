@@ -9,26 +9,26 @@ function Header({ opened }) {
     <header>
       <div className="tabs">
         <NavLink
-          style={{ display: "flex", color: "white", textDecoration: "none" }}
+          style={{ display: "flex", color: "#fa6d75", textDecoration: "none" }}
           to="/"
         >
           <div className="tabs__logo__tab active">HOME</div>
         </NavLink>
         <NavLink
-          style={{ display: "flex", color: "white", textDecoration: "none" }}
+          style={{ display: "flex", color: "#fa6d75", textDecoration: "none" }}
           to="/events"
         >
           <div className="tabs__logo__tab ">EVENTS</div>
         </NavLink>
-        ALfaaz logo
+
         <NavLink
-          style={{ display: "flex", color: "white", textDecoration: "none" }}
+          style={{ display: "flex", color: "#fa6d75", textDecoration: "none" }}
           to="/members"
         >
           <div className="tabs__logo__tab ">MEMBERS</div>
         </NavLink>
         <a
-          style={{ display: "flex", color: "white", textDecoration: "none" }}
+          style={{ display: "flex", color: "#fa6d75", textDecoration: "none" }}
           href="https://kreiva.tk/media/brochure.pdf"
         >
           <div className="tabs__logo__tab ">BROCHURE</div>
