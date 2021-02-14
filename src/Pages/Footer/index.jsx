@@ -1,32 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import "font-awesome/css/font-awesome.min.css";
+
 // import dotlogo from "../../Assets/Images/dot.png";
 // import cclogo from "../../Assets/Images/cc.svg";
-
-//styles import
 import "./Footer.css";
 
 const Footer = () => {
-  // const link_toogle = (e) => {
-  //   e.target.style.transform === "rotate(180deg)"
-  //     ? (e.target.style.transform = "rotate(0deg)")
-  //     : (e.target.style.transform = "rotate(180deg)");
-  //
-  //   var element = document.getElementById("cyka");
-  //
-  //   if (element.classList) {
-  //     element.classList.toggle("link-display");
-  //   } else {
-  //     var classes = element.className.split(" ");
-  //     var i = classes.indexOf("link-display");
-  //
-  //     if (i >= 0) classes.splice(i, 1);
-  //     else classes.push("link-display");
-  //     element.className = classes.join(" ");
-  //   }
-  // };
-
   return (
     <footer>
       <div className="inname">

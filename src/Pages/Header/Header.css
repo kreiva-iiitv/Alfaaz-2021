@@ -9,6 +9,12 @@
   color: white;
 }
 
+.navstyles {
+  display: flex;
+  color: #fa6d75;
+  text-decoration: none;
+}
+
 .tabs__logo {
   height: 116px;
   width: 194px;
