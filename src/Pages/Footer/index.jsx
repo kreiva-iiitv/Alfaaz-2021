@@ -22,9 +22,6 @@ const Footer = () => {
               LINKS
               <div className="underline"></div>
             </div>
-            {/* <div className="link-toogle" onClick={(e) => link_toogle(e)} >
-              <i className="fa fa-angle-down fa-2x" aria-hidden="true" color="white"></i>
-            </div> */}
           </div>
           <div className="links" id="cyka">
             <NavLink to="/" className="link">
