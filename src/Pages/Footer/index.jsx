@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-// import dotlogo from "../../Assets/Images/dot.png";
-// import cclogo from "../../Assets/Images/cc.svg";
+import dotlogo from "../../Assets/dot logo 1.svg";
+import cclogo from "../../Assets/cc.svg";
 import "./Footer.css";
 
 const Footer = () => {
@@ -50,7 +50,14 @@ const Footer = () => {
           <div className="contact">
             <div className="clink">
               Email:{" "}
-              <div className="con-details">literature@iiitvadodara.ac.in</div>
+              <div className="con-details">
+                <a
+                  href="mailto:literature@iiitvadodara.ac.in"
+                  className="linktext"
+                >
+                  literature@iiitvadodara.ac.in
+                </a>
+              </div>
             </div>
             <div className="clink">
               Phone:{" "}
@@ -75,19 +82,18 @@ const Footer = () => {
         </span>
       </div>
       <hr className="lastline"></hr>
+      <div className="dev">
+        <div className="dot">
+          <p className="p-dev">Designed by Dot</p>
+          <img src={dotlogo} alt="dot-logo" className="dotlogo"></img>
+        </div>
+        <div className="cc">
+          <p className="p-dev">Developed by Coding Club</p>
+          <img src={cclogo} alt="cc-logo" className="cclogo"></img>
+        </div>
+      </div>
     </footer>
   );
 };
 
 export default Footer;
-
-// <div className="dev">
-//   <div className="dot">
-//     <p className="p-dev">Designed by Dot</p>
-//     <img src={dotlogo} alt="dot-logo" className="dotlogo"></img>
-//   </div>
-//   <div className="cc">
-//     <p className="p-dev">Developed by Coding Club</p>
-//     <img src={cclogo} alt="cc-logo" className="cclogo"></img>
-//   </div>
-// </div>
