@@ -1,0 +1,163 @@
+.About__root {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 65px;
+  justify-content: space-between;
+  background-color: #fff5da;
+  padding-bottom: 50px;
+}
+
+.About__text {
+  max-width: 50%;
+}
+.booklogo {
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  height: 300px;
+  width: 675px;
+}
+.book-text {
+  display: flex;
+  position: relative;
+}
+.bookstyles {
+  position: relative;
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: normal;
+  color: #2f1728;
+}
+.book-heading1 {
+  font-size: 55px;
+  line-height: 20px;
+  top: 30px;
+  right: 150px;
+}
+.book-content1 {
+  font-size: 25px;
+  line-height: 10px;
+  top: 65px;
+  right: 140px;
+}
+.book-heading2 {
+  font-size: 55px;
+  line-height: 20px;
+  top: -5px;
+  right: 70px;
+}
+.book-content2 {
+  font-size: 25px;
+  line-height: 10px;
+  top: 30px;
+  right: 60px;
+}
+.book-heading3 {
+  font-size: 55px;
+  line-height: 20px;
+
+  top: -30px;
+  right: 45px;
+}
+.book-content3 {
+  font-size: 25px;
+  line-height: 10px;
+  top: 5px;
+  right: 40px;
+}
+
+.About__text--heading {
+  font-family: Manrope, "Segoe UI";
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px 20px;
+  width: max-content;
+  border-bottom: 4px solid #fa6d75;
+  margin-left: -20px;
+  color: #fa6d75;
+}
+
+.About__text--content {
+  font-family: Manrope, "Segoe UI";
+  font-size: 16px;
+  margin-top: 52px;
+  color: black;
+}
+
+.About__font {
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .About__root {
+    flex-direction: column;
+
+    padding: 0 30px;
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 66.6px;
+  }
+
+  .About__text {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .About__text--heading {
+    font-size: 20px;
+    align-items: center;
+  }
+  .booklogo {
+    position: relative;
+    height: 300px;
+    max-width: 470px;
+    left: 10px;
+  }
+  .book-heading1 {
+    font-size: 45px;
+    line-height: 10px;
+    top: -175px;
+    left: 70px;
+  }
+  .book-content1 {
+    font-size: 30px;
+    line-height: 5px;
+    top: -155px;
+    left: 80px;
+  }
+  .book-heading2 {
+    font-size: 45px;
+    line-height: 20px;
+    top: -210px;
+    left: 140px;
+  }
+  .book-content2 {
+    font-size: 30px;
+    line-height: 10px;
+    top: -185px;
+    left: 150px;
+  }
+  .book-heading3 {
+    font-size: 55px;
+    line-height: 20px;
+
+    top: -260px;
+    left: 180px;
+  }
+  .book-content3 {
+    font-size: 25px;
+    line-height: 10px;
+    top: -225px;
+    left: 180px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .About__root {
+    width: auto;
+  }
+}
