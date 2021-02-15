@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import logo from "../../Assets/Images/logo.png";
-// import "font-awesome/css/font-awesome.min.css";
+
 import "./Header.css";
 
 function Header({ opened }) {
