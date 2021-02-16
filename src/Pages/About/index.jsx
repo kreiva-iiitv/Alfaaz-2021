@@ -8,21 +8,22 @@ function About() {
       <div className="About__text left-section">
         <div className="About__text--heading About__font">ABOUT</div>
         <div className="About__text--content About__font">
-          Kreiva is the annual cultural festival of Indian Institute of
-          Information Technology, Vadodara. Kreiva serves as a platform for
-          students to show their talents in performing arts and aesthetic arts,
-          where students can collaborate and team up with other students to
-          bring out the best in them.
+          Alfaaz is the Annual Literature Festival of Indian Institute of
+          Information Technology, Vadodara. It is organized by the Literature
+          Committee IIIT Vadodara and serves as a platform for literarians to
+          showcase their knowledge, creativity and skills.
           <br />
           <br />
-          The Annual Cultural Festival of IIIT Vadodara gets its name from the
-          Esperanto word "Kreiva", meaning "Creativity". Since its inception in
-          2016 as an intra-institute fest in 2016, it has consistently been a
-          huge platform for individuals to showcase their talents. A spectacular
-          extravaganza, Kreiva is home to expression through art, music, drama,
-          dance and culture. <br />
+          It has a complete dose of mainstream events including open mic, poetry
+          & microstory writing, fan fiction , spell bee and fun events such as
+          guess the gibberish and many more. The festival offers a unique
+          opportunity to hear some of the greatest contemporary literary
+          stalwarts together on a single platform that brings diverse thoughts &
+          opinions, and upholds freedom of thought & expression during the
+          five-day mega event.
           <br />
-          Join us to celebrate creativity, join us, to celebrate Kreiva!
+          <br />
+          Join us to celebrate creativity, join us, to celebrate Alfaaz!
         </div>
       </div>
       <div className="right-section">
