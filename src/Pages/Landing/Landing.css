@@ -5,9 +5,7 @@
   font-size: 200px;
   line-height: 151.1%;
   text-align: center;
-
   color: #ff6b71;
-
   width: 528px;
   height: 302px;
   margin: auto;
@@ -64,7 +62,7 @@
   position: absolute;
   text-align: right;
   bottom: -50px;
-  right: 30px;
+  right: 0px;
 }
 .hindi-img {
   height: 350px;
@@ -98,6 +96,141 @@
   transform: rotate(90.1deg);
   background-color: #2f1728;
   z-index: 10;
-  right: -300px;
+  right: -330px;
   top: 0px;
+}
+
+@media (max-width: 800px) {
+  .landing {
+    width: 100%;
+  }
+  .landing__text--section {
+    font-size: 160px;
+    line-height: 80.1%;
+    width: 400px;
+    height: 190px;
+    margin: auto;
+    text-align: center;
+    /* margin-bottom: -10px; */
+  }
+  .landing__text--virtual {
+    display: none;
+  }
+  .timer {
+    width: 100%;
+  }
+  .time-text {
+    font-size: 16px;
+  }
+  .box1 {
+    margin-right: 10px;
+    width: 30px;
+    height: 45px;
+    border-radius: 10px;
+  }
+  .box2 {
+    width: 30px;
+    height: 45px;
+    border-radius: 10px;
+  }
+
+  .lower-img {
+    bottom: 0px;
+    right: 0px;
+  }
+  .hindi-img {
+    height: 155px;
+    width: 160px;
+  }
+  .upper-img {
+    position: absolute;
+    text-align: left;
+    top: 80px;
+    left: 0px;
+  }
+  .english-img {
+    height: 155px;
+    width: 160px;
+  }
+  .main-section {
+    padding-top: 150px;
+  }
+  .border-line {
+    width: 220px;
+    height: 0px;
+    left: -35px;
+    top: 0px;
+  }
+  .border-line2 {
+    width: 1020px;
+    height: 0px;
+
+    right: -480px;
+    top: 0px;
+  }
+  .handle-section {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .landing__text--section {
+    font-size: 100px;
+    line-height: 80.1%;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+  }
+  .box1 {
+    margin-right: 10px;
+    width: 20px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .box2 {
+    width: 20px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .time-text {
+    font-size: 10px;
+  }
+  .timer-style {
+    margin: 15px;
+  }
+  .lower-img {
+    bottom: 130px;
+    right: 0px;
+  }
+  .hindi-img {
+    height: 120px;
+    width: 130px;
+  }
+  .upper-img {
+    position: absolute;
+    text-align: left;
+    top: 80px;
+    left: 0px;
+  }
+  .english-img {
+    height: 120px;
+    width: 130px;
+  }
+  .main-section {
+    padding-top: 150px;
+  }
+  .border-line {
+    width: 200px;
+    height: 0px;
+    left: -40px;
+    top: 0px;
+  }
+  .border-line2 {
+    width: 830px;
+    height: 0px;
+
+    right: -380px;
+    top: 0px;
+  }
 }

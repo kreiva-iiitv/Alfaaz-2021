@@ -48,10 +48,10 @@
   cursor: pointer;
 }
 
-.tabs__logo--date {
+/* .tabs__logo--date {
   font-size: 0.7em;
   color: #821169;
-}
+} */
 
 .mobile__tabs {
   height: 39px;
@@ -62,11 +62,11 @@
   height: 39px;
   padding-top: 15px;
   padding-bottom: 14px;
-  background-color: #1e022c;
+  background-color: #fff5da;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 100;
+  z-index: 8;
 }
 
 .mobile__tabs__logo {
@@ -75,7 +75,7 @@
 }
 
 .blank {
-  color: #1e022c;
+  color: #fa6d75;
   height: 30px;
   width: 40px;
 }

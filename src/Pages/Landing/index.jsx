@@ -39,9 +39,6 @@ function Landing() {
 
   useEffect(() => {
     startTimer();
-    return () => {
-      clearInterval(interval.current);
-    };
   });
 
   return (
@@ -49,82 +46,89 @@ function Landing() {
       <div className="landing">
         <div className="landing__text">
           <div className="upper-img">
-            <img src={englishlogo} className="english-img" />
+            <img src={englishlogo} className="english-img" alt="capital A" />
           </div>
+
           <div className="border-line"></div>
-          <div className="landing__text--font landing__text--section">
-            ALFAAZ
+
+          <div className="main-section">
+            <div className="landing__text--font landing__text--section">
+              ALFAAZ
+            </div>
+
+            <div className="landing__text--font landing__text--virtual">
+              A Virtual Fest
+            </div>
+
+            <div className="timer">
+              <div className="timer-style">
+                <div className="timer-box">
+                  <div className="box1">
+                    <h1 className="time-text">{parseInt(timerDays / 10)}</h1>
+                  </div>
+                  <div className="box2">
+                    <h1 className="time-text">{timerDays % 10}</h1>
+                  </div>
+                </div>
+                <div className="days-content">
+                  <p>DAYS</p>
+                </div>
+              </div>
+
+              <div className="timer-style">
+                <div className="timer-box">
+                  <div className="box1">
+                    <h1 className="time-text">{parseInt(timerHours / 10)}</h1>
+                  </div>
+                  <div className="box2">
+                    <h1 className="time-text">{timerHours % 10}</h1>
+                  </div>
+                </div>
+
+                <div className="hours-content">
+                  <p>HOURS</p>
+                </div>
+              </div>
+
+              <div className="timer-style">
+                <div className="timer-box">
+                  <div className="box1">
+                    <h1 className="time-text">{parseInt(timerMinutes / 10)}</h1>
+                  </div>
+                  <div className="box2">
+                    <h1 className="time-text">{timerMinutes % 10}</h1>
+                  </div>
+                </div>
+
+                <div className="minutes-content">
+                  <p>MINUTES</p>
+                </div>
+              </div>
+
+              <div className="timer-style">
+                <div className="timer-box">
+                  <div className="box1">
+                    <h1 className="time-text">{parseInt(timerSeconds / 10)}</h1>
+                  </div>
+                  <div className="box2">
+                    <h1 className="time-text">{timerSeconds % 10}</h1>
+                  </div>
+                </div>
+
+                <div className="seconds-content">
+                  <p>SECONDS</p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div className="landing__text--font landing__text--virtual">
-            A Virtual Fest
+          <div className="handle-section">
+            <Handle />
           </div>
 
-          <div className="timer">
-            <div className="timer-style">
-              <div className="timer-box">
-                <div className="box1">
-                  <h1 className="time-text">{parseInt(timerDays / 10)}</h1>
-                </div>
-                <div className="box2">
-                  <h1 className="time-text">{timerDays % 10}</h1>
-                </div>
-              </div>
-              <div className="days-content">
-                <p>DAYS</p>
-              </div>
-            </div>
-
-            <div className="timer-style">
-              <div className="timer-box">
-                <div className="box1">
-                  <h1 className="time-text">{parseInt(timerHours / 10)}</h1>
-                </div>
-                <div className="box2">
-                  <h1 className="time-text">{timerHours % 10}</h1>
-                </div>
-              </div>
-
-              <div className="hours-content">
-                <p>HOURS</p>
-              </div>
-            </div>
-
-            <div className="timer-style">
-              <div className="timer-box">
-                <div className="box1">
-                  <h1 className="time-text">{parseInt(timerMinutes / 10)}</h1>
-                </div>
-                <div className="box2">
-                  <h1 className="time-text">{timerMinutes % 10}</h1>
-                </div>
-              </div>
-
-              <div className="minutes-content">
-                <p>MINUTES</p>
-              </div>
-            </div>
-
-            <div className="timer-style">
-              <div className="timer-box">
-                <div className="box1">
-                  <h1 className="time-text">{parseInt(timerSeconds / 10)}</h1>
-                </div>
-                <div className="box2">
-                  <h1 className="time-text">{timerSeconds % 10}</h1>
-                </div>
-              </div>
-
-              <div className="seconds-content">
-                <p>SECONDS</p>
-              </div>
-            </div>
-          </div>
-
-          <Handle />
           <div className="border-line2"></div>
           <div className="lower-img">
-            <img src={hindilogo} className="hindi-img" />
+            <img src={hindilogo} className="hindi-img" alt="hindi A" />
           </div>
         </div>
       </div>

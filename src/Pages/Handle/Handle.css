@@ -4,7 +4,7 @@
   padding-left: 35%;
   padding-right: 35%;
   margin-top: 50px;
-  font-size: 34px;
+  font-size: 50px;
   z-index: 1000;
   text-align: center;
 }
@@ -22,10 +22,13 @@
 @media screen and (max-width: 800px) {
   .social {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 65px;
-    padding-right: 65px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 57.1px;
     font-size: 24px;
+    margin: auto;
+    width: 400px;
+    font-size: 50px;
   }
 }

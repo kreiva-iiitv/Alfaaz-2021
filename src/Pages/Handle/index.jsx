@@ -10,7 +10,12 @@ class Handle extends Component {
     return (
       <div className="social">
         <div>
-          <a className="s" href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            className="s"
+            href="https://www.instagram.com/alfaaz_iiitv/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FacebookIcon />
           </a>
         </div>
@@ -25,12 +30,22 @@ class Handle extends Component {
           </a>
         </div>
         <div>
-          <a className="s" href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            className="s"
+            href="https://www.instagram.com/alfaaz_iiitv/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <LinkedInIcon />
           </a>
         </div>
         <div>
-          <a className="s" href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            className="s"
+            href="https://www.instagram.com/alfaaz_iiitv/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <TwitterIcon />
           </a>
         </div>
