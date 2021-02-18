@@ -21,6 +21,14 @@ function Header({ opened }) {
           <div className="tabs__logo__tab ">BROCHURE</div>
         </a>
       </div>
+      <div className="mobile__tabs">
+        <div>
+          <i className="fa fa-bars blank"></i>
+        </div>
+        <div onClick={opened}>
+          <i className="fa fa-bars hamburger"></i>
+        </div>
+      </div>
     </header>
   );
 }
