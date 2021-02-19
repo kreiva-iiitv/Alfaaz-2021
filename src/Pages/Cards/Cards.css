@@ -1,0 +1,137 @@
+
+.card{
+  background-image: url("../../Assets/Asssset 2 3.png") ;
+
+  width: 750px;
+ height: 650px;
+ background-repeat: no-repeat;
+ padding-bottom: 100px;
+margin: auto;
+text-align: center;
+
+}
+
+.card-main{
+width: 600px;
+height: 497px;
+padding-top : 100px;
+
+}
+.card-img{
+  width: 600px;
+ height: 600px;
+ text-align :center;
+ margin:auto;
+}
+
+.card-heading{
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 46px;
+/* identical to box height */
+color: #2F1728;
+padding-left: 150px;
+}
+.card-content{
+  font-family: "Manrope";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+padding-left: 150px;
+padding-top: 15px;
+padding-bottom: 15px;
+color: #2F1728;
+}
+
+.sub-heading{
+  font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+padding-left: 150px;
+
+
+
+color: #2F1728;
+}
+.card-styles{
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.content{
+  position: absolute;
+font-family: "Manrope";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+padding-left: 300px;
+
+
+color: #2F1728;
+}
+
+
+.button{
+  display: flex;
+
+  padding-top: 20px;
+}
+.button1{
+  padding-left: 160px;
+}
+.button2{
+  padding-left: 100px;
+}
+
+@media (max-width:800px){
+  .card{
+    width: 600px;
+}
+.button1{
+  padding-left: 100px;
+}
+.button2{
+  padding-left: 40px;
+}
+}
+@media (max-width:650px){
+  .card{
+    width: 400px;
+     height: 670px;
+
+}
+.button1{
+  padding-right: 80px;
+  padding-left: 0;
+}
+.button2{
+  padding-left: 10px;
+  padding-right: 80px;
+}
+.card-heading{
+  font-size: 25px;
+  line-height: 23px;
+
+padding-right: 300px;
+
+
+}
+.card-content{
+  line-height: 16px;
+  width:150px;
+  font-weight: bold;
+}
+.button{
+  display: grid;
+  padding-bottom: 50px;
+}
+}
