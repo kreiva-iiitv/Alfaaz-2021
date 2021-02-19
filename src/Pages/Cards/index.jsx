@@ -1,14 +1,14 @@
 import React from "react";
 import "./Cards.css";
-import template from "../../Assets/Asssset 2 3.png";
+
 import {
-  createMuiTheme,
+
   withStyles,
   makeStyles,
-  ThemeProvider
+
 } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import { green, purple } from "@material-ui/core/colors";
+
 
 
 
@@ -100,11 +100,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const theme = createMuiTheme({
-  palette: {
-    primary: purple
-  }
-});
+
 
 
 
