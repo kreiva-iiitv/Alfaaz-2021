@@ -10,7 +10,7 @@ function Header({ opened }) {
         <NavLink className="navstyles" to="/">
           <div className="tabs__logo__tab active">HOME</div>
         </NavLink>
-        <NavLink className="navstyles" to="/events">
+        <NavLink className="navstyles" to="/Event">
           <div className="tabs__logo__tab ">EVENTS</div>
         </NavLink>
 
