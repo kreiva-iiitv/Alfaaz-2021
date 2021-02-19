@@ -7,7 +7,7 @@
     z-index: 101;
     background-color: #fff5da;
     transition: transform 0.3s ease-out;
-    color: black;
+    color: #2f1728;
 }
 
 
@@ -32,14 +32,14 @@
     padding: 9px 14px;
     margin-top: 18px;
     margin-right: 2px;
-    color: black;
+    color: #2f1728;
     background-color: #fff5da;
     z-index: 10;
 }
 
 
 .side__tab{
-    color: black;
+    color: #2f1728;
     font-family: Manrope;
     font-size: 18px;
     font-weight: 600;
@@ -63,12 +63,12 @@
     font-size: 28px;
     margin-left: 61px;
     margin-right: 61px;
-    color: black;
+    color: #2f1728;
     margin-top: 70%;
 }
 
 .side__handles>div>a{
-    color: black;
+    color: #2f1728;
 }
 
 .mobile__active{

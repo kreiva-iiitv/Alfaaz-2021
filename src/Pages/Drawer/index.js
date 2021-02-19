@@ -13,16 +13,16 @@ const Drawer = (props) => {
 
         <div className="side__tabs">
             <div className="side__tab " >
-            <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: 'black' }} to='/'>HOME</NavLink>
+            <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/'>HOME</NavLink>
             </div>
             <div className="side__tab">
-            <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: 'black' }} to='/events'>EVENTS</NavLink>
+            <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/events'>EVENTS</NavLink>
             </div>
             <div className="side__tab">
-            <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: 'black' }} to='/members'>MEMBERS</NavLink>
+            <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/members'>MEMBERS</NavLink>
             </div>
             <div className="side__tab">
-            <a onClick={props.closed} activeClassName="mobile__active" style={{ textDecoration: 'none', color: 'black' }} href="https://kreiva.tk/media/brochure.pdf">BROCHURE</a>
+            <a onClick={props.closed} activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} href="https://kreiva.tk/media/brochure.pdf">BROCHURE</a>
             </div>
         </div>
 
