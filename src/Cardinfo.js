@@ -4,8 +4,8 @@ const Cardinfo = [
     worth: "5000",
     venue: "London",
     date: "Beyonce",
-    convenor:"Johnny",
-    coconvenor:"Danny mia",
+    convenor:"SAMPLE",
+    coconvenor:"AbC",
     members:"Anshuman singh"
 
   },
@@ -14,8 +14,8 @@ const Cardinfo = [
     worth: "5000",
     venue: "London",
     date: "Beyonce",
-    convenor:"Johnny",
-    coconvenor:"Danny mia",
+    convenor:"SAMPLE",
+    coconvenor:"SAMPLE",
     members:"Anshuman singh"
 
   },
@@ -24,8 +24,8 @@ const Cardinfo = [
     worth: "5000",
     venue: "London",
     date: "Beyonce",
-    convenor:"Johnny",
-    coconvenor:"Danny mia",
+    convenor:"SAMPLE",
+    coconvenor:"SAMPLE",
     members:"Anshuman singh"
 
   },
