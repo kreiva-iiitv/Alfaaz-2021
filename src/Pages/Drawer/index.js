@@ -1,6 +1,6 @@
 import React from "react";
 import "./Drawer.css";
-import "font-awesome/css/font-awesome.min.css";
+
 import { NavLink } from "react-router-dom";
 
 const Drawer = (props) => {

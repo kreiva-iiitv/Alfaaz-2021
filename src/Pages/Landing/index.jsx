@@ -70,7 +70,7 @@ function Landing() {
                     <h1 className="time-text">{timerDays % 10}</h1>
                   </div>
                 </div>
-                <div className="days-content">
+                <div className="time-content">
                   <p>DAYS</p>
                 </div>
               </div>
@@ -84,10 +84,11 @@ function Landing() {
                     <h1 className="time-text">{timerHours % 10}</h1>
                   </div>
                 </div>
-
-                <div className="hours-content">
+                <div className="time-content">
                   <p>HOURS</p>
                 </div>
+
+
               </div>
 
               <div className="timer-style">
@@ -100,7 +101,7 @@ function Landing() {
                   </div>
                 </div>
 
-                <div className="minutes-content">
+                <div className="time-content">
                   <p>MINUTES</p>
                 </div>
               </div>
@@ -115,7 +116,7 @@ function Landing() {
                   </div>
                 </div>
 
-                <div className="seconds-content">
+                <div className="time-content">
                   <p>SECONDS</p>
                 </div>
               </div>

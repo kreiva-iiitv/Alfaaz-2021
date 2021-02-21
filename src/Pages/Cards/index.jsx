@@ -22,8 +22,8 @@ const BootstrapButton = withStyles({
     lineHeight: 1.5,
     backgroundColor: "#2F1728",
     borderColor: "#2F1728",
-    borderRadius:"20px",
-    width:"200px",
+    borderRadius: "20px",
+    width: "200px",
     fontFamily: [
       "-apple-system",
       "BlinkMacSystemFont",
@@ -63,8 +63,8 @@ const BootstrapButton2 = withStyles({
     lineHeight: 1.5,
     backgroundColor: "#2F1728",
     borderColor: "#2F1728",
-    borderRadius:"20px",
-    width:"150px",
+    borderRadius: "20px",
+    width: "150px",
     fontFamily: [
       "-apple-system",
       "BlinkMacSystemFont",
@@ -106,81 +106,113 @@ const useStyles = makeStyles((theme) => ({
 
 
 
-function Cards(props){
+function Cards(props) {
 
   const classes = useStyles();
-return   <div className = "card">
+  return <div className = "card" >
 
-         <div className="card-main">
-         <div className="card-heading"><b>MASK DECORATION</b> </div>
-        <div className = "card-content"> Participants have to decorate a simple mask in the most creative and artistic way.
-        Participants are free to use any colours and decorating materials like glitters. </div>
-        <div className = "card-styles">
+    <
+    div className = "card-main" >
+    <
+    div className = "card-heading" > < b > MASK DECORATION < /b> </div >
+    <
+    div className = "card-content" > Participants have to decorate a simple mask in the most creative and artistic way.
+  Participants are free to use any colours and decorating materials like glitters. < /div> <
+    div className = "card-styles" >
 
-           <div className = "sub-heading">Prize worth </div>
-           <div className = "content">{props.worth}</div>
+    <
+    div className = "sub-heading" > Prize worth < /div> <
+    div className = "content" > {
+      props.worth
+    } < /div>
 
-        </div>
-        <div className = "card-styles">
+    <
+    /div> <
+    div className = "card-styles" >
 
-           <div className = "sub-heading">Venue</div>
-           <div  className = "content">{props.venue}</div>
+    <
+    div className = "sub-heading" > Venue < /div> <
+    div className = "content" > {
+      props.venue
+    } < /div>
 
-        </div>
-        <div className = "card-styles">
+    <
+    /div> <
+    div className = "card-styles" >
 
-           <div className = "sub-heading">Date and Time </div>
-           <div className = "content">{props.date}</div>
+    <
+    div className = "sub-heading" > Date and Time < /div> <
+    div className = "content" > {
+      props.date
+    } < /div>
 
-        </div>
-        <div className = "card-styles">
+    <
+    /div> <
+    div className = "card-styles" >
 
-           <div className="sub-heading">Convenor </div>
-           <div className = "content">{props.convenor}</div>
+    <
+    div className = "sub-heading" > Convenor < /div> <
+    div className = "content" > {
+      props.convenor
+    } < /div>
 
-        </div>
-        <div className = "card-styles">
+    <
+    /div> <
+    div className = "card-styles" >
 
-           <div className="sub-heading">Co-convenor </div>
-           <div className = "content">{props.coconvenor}</div>
-}
-        </div>
-        <div className = "card-styles">
+    <
+    div className = "sub-heading" > Co - convenor < /div> <
+    div className = "content" > {
+      props.coconvenor
+    } < /div>
+} <
+/div> <
+div className = "card-styles" >
 
-           <div className="sub-heading">Members </div>
-           <div className = "content">{props.members}</div>
+  <
+  div className = "sub-heading" > Members < /div> <
+  div className = "content" > {
+    props.members
+  } < /div>
 
-        </div>
+  <
+  /div>
 
-        <div className = "button">
-        <div className = "button1" > <BootstrapButton
-        variant="contained"
-        color="primary"
-        disableRipple
-        className={classes.margin}
-      >
-        Rules and Regulations
-      </BootstrapButton>
-    </div>
-        <div className = "button2"> <BootstrapButton2
-        variant="contained"
-        color="primary"
-        disableRipple
-        className={classes.margin}
-      >
-        Register
-      </BootstrapButton2>
-        </div>
-        </div>
+  <
+  div className = "button" >
+  <
+  div className = "button1" > < BootstrapButton
+variant = "contained"
+color = "primary"
+disableRipple
+className = {
+    classes.margin
+  } >
+  Rules and Regulations <
+  /BootstrapButton> <
+  /div> <
+  div className = "button2" > < BootstrapButton2
+variant = "contained"
+color = "primary"
+disableRipple
+className = {
+    classes.margin
+  } >
+  Register <
+  /BootstrapButton2> <
+  /div> <
+  /div>
 
 
 
-         </div>
+  <
+  /div>
 
 
 
 
-   </div>
+  <
+  /div>
 
 
 }

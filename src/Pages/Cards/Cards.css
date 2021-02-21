@@ -104,9 +104,18 @@ color: #2F1728;
 }
 }
 @media (max-width:650px){
-  .card{
-    width: 400px;
-     height: 670px;
+  .card{  width: 300px;
+   height: 350px;
+
+
+
+}
+.card-main{
+  width: 300px;
+  height: 350px;
+  padding-top: 50px;
+
+
 
 }
 .button1{
@@ -117,19 +126,38 @@ color: #2F1728;
   padding-left: 10px;
   padding-right: 80px;
 }
+
 .card-heading{
   font-size: 25px;
   line-height: 23px;
+  padding-left :75px;
 
-padding-right: 300px;
+
+
 
 
 }
 .card-content{
   line-height: 16px;
   width:150px;
-  font-weight: bold;
-}
+  font-weight: normal;
+  padding-left: 115px;
+  text-align: left;
+  }
+  .sub-heading{
+    padding-left: 115px;
+    font-size: 12px;
+  }
+  .card-styles{
+    padding-bottom: 10px;
+  }
+  .content{
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height */
+    padding-left: 200px;
+
+  }
 .button{
   display: grid;
   padding-bottom: 50px;

@@ -5,7 +5,7 @@
   font-size: 100px;
   line-height: 144.6%;
   /* identical to box height, or 145px */
-  
+
   text-align: center;
 
   color: #FF6B71;
@@ -14,8 +14,9 @@
 @media (max-width:800px){
   body{
 
-  padding-left:  80px;
+  /* padding-left:  80px; */
   overflow-x: hidden;
+
   }
   .heading{
     padding-left: 100px;
@@ -25,7 +26,8 @@
 @media (max-width:650px){
   body{
 overflow-x: hidden;
-  padding-left:  80px;
+/* text-align: center; */
+  /* padding-left:  80px; */
   }
   .heading{
     padding-left: 0;

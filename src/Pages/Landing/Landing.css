@@ -38,7 +38,10 @@
 }
 .timer-style {
   display: grid;
-  margin: 30px;
+  margin-right: 30px;
+}
+.timer-style1{
+  display:grid;
 }
 
 .timer-box {
@@ -90,13 +93,13 @@
 }
 .border-line2 {
   position: absolute;
-  width: 860px;
+  width: 925px;
   height: 0px;
   border: 1px solid #2f1728;
   transform: rotate(90.1deg);
   background-color: #2f1728;
   z-index: 10;
-  right: -330px;
+  right: -350px;
   top: 0px;
 }
 
@@ -104,8 +107,9 @@
   .landing {
     width: 100%;
   }
+
   .landing__text--section {
-    font-size: 160px;
+    font-size: 130px;
     line-height: 80.1%;
     width: 400px;
     height: 190px;
@@ -116,9 +120,7 @@
   .landing__text--virtual {
     display: none;
   }
-  .timer {
-    width: 100%;
-  }
+
   .time-text {
     font-size: 16px;
   }
@@ -170,20 +172,21 @@
   }
   .handle-section {
     padding-top: 60px;
+    
   }
 }
 
 @media (max-width: 600px) {
   .landing__text--section {
     font-size: 100px;
-    line-height: 80.1%;
-    width: 400px;
+    width :270px;
+
     height: 100px;
-    margin: auto;
-    text-align: center;
+
+    text-align: left;
   }
   .box1 {
-    margin-right: 10px;
+    margin-right: 1px;
     width: 20px;
     height: 30px;
     border-radius: 5px;
@@ -193,11 +196,15 @@
     height: 30px;
     border-radius: 5px;
   }
+
   .time-text {
     font-size: 10px;
   }
-  .timer-style {
-    margin: 15px;
+  .time-content{
+    font-size: 0.5rem;
+  }
+  .timer-box {
+    margin-right: -1px;
   }
   .lower-img {
     bottom: 130px;
@@ -227,7 +234,7 @@
     top: 0px;
   }
   .border-line2 {
-    width: 830px;
+    width: 780px;
     height: 0px;
 
     right: -380px;
