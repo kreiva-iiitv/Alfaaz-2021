@@ -137,7 +137,7 @@
   }
 
   .lower-img {
-    bottom: 0px;
+    top: 510px;
     right: 0px;
   }
   .hindi-img {
@@ -172,7 +172,7 @@
   }
   .handle-section {
     padding-top: 60px;
-    
+
   }
 }
 
@@ -187,18 +187,18 @@
   }
   .box1 {
     margin-right: 1px;
-    width: 20px;
-    height: 30px;
+    width: 30px;
+    height: 40px;
     border-radius: 5px;
   }
   .box2 {
-    width: 20px;
-    height: 30px;
+    width: 30px;
+    height: 40px;
     border-radius: 5px;
   }
 
   .time-text {
-    font-size: 10px;
+    font-size: 15px;
   }
   .time-content{
     font-size: 0.5rem;
@@ -207,7 +207,7 @@
     margin-right: -1px;
   }
   .lower-img {
-    bottom: 130px;
+    top:390px;
     right: 0px;
   }
   .hindi-img {
@@ -239,5 +239,8 @@
 
     right: -380px;
     top: 0px;
+  }
+  .handle-section{
+    display: none;
   }
 }

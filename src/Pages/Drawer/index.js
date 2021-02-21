@@ -1,5 +1,6 @@
 import React from "react";
 import "./Drawer.css";
+import Handle from "../Handle";
 
 import { NavLink } from "react-router-dom";
 
@@ -26,18 +27,7 @@ const Drawer = (props) => {
             </div>
         </div>
 
-        <div className="side__handles">
-            <div>
-                <a href="https://www.facebook.com/iiitvlitclub/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook-square"></i></a>
-            </div>
-            <div>
-                <a href="https://www.instagram.com/alfaaz_iiitv/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
-            </div>
-            <div>
-                <a href="https://www.facebook.com/iiitvlitclub/" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
-            </div>
-        </div>
-
+       <Handle />
     </div>
 
 );

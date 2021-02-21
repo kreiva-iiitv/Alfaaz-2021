@@ -3,6 +3,7 @@ import Header from "../Header";
 import Cards from "../Cards";
 import "./Events.css";
 import Cardinfo from "../../Cardinfo.js";
+import Footer from "../Footer";
 
 const Events = () => {
   return <div>
@@ -37,6 +38,8 @@ coconvenor={Cardinfo[2].coconvenor}
 members ={Cardinfo[2].members}
 
 />
+
+<Footer/>
 
 
   </div>;
