@@ -22,9 +22,9 @@ function Header({ opened }) {
         </a>
       </div>
       <div className="mobile__tabs">
-        <div>
+        {/* <div>
           <i className="fa fa-bars blank"></i>
-        </div>
+        </div> */}
         <div onClick={opened}>
           <i className="fa fa-bars hamburger"></i>
         </div>
