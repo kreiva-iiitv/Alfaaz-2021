@@ -184,10 +184,5 @@
   .mobileGallery {
     display: flex;
   }
-  .prevMobile{
-    display: none;
-  }
-  .nextMobile{
-    display: none;
-  }
+
 }

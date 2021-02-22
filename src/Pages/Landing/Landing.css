@@ -65,7 +65,7 @@
 .lower-img {
   position: absolute;
   text-align: right;
-  bottom: -50px;
+  top:450px;
   right: 0px;
 }
 .hindi-img {
@@ -247,5 +247,9 @@
   }
   .timer{
     padding-left: 30px;
+  }
+  .timer-style {
+
+    margin-right: 15px;
   }
 }
