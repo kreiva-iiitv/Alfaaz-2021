@@ -4,10 +4,11 @@ import Cards from "../Cards";
 import "./Events.css";
 import Cardinfo from "../../Cardinfo.js";
 import Footer from "../Footer";
+import NavigationHelper from "../NavigationHelper";
 
 const Events = () => {
   return <div>
-<Header />
+< NavigationHelper/>
   <div className ="heading">EVENTS </div>
   {Cardinfo.map(card=>(
     <Cards
