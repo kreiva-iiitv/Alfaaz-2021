@@ -17,7 +17,7 @@ const Drawer = (props) => {
             <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/'>HOME</NavLink>
             </div>
             <div className="side__tab">
-            <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/events'>EVENTS</NavLink>
+            <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/Event'>EVENTS</NavLink>
             </div>
             <div className="side__tab">
             <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/members'>MEMBERS</NavLink>
