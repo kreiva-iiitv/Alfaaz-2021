@@ -40,7 +40,7 @@ function Gallery() {
                   <div className="upper">
                     <img
                       className="galleryImg"
-                      src={'https://firebasestorage.googleapis.com/v0/b/alfaaz-a71da.appspot.com/o/carousel%2F2-min.jpg?alt=media&token=f536d136-f687-4cb7-8a87-caa2404c3b5c'}
+                      src={'https://firebasestorage.googleapis.com/v0/b/alfaaz-a71da.appspot.com/o/carousel%2F6-min.jpg?alt=media&token=e5045a0b-1ee2-41c8-b6d4-910271468525'}
                       alt="Alfaaz gallery"
                       draggable="false"
                     />
@@ -80,7 +80,7 @@ function Gallery() {
                   <div className="upper">
                     <img
                       className="galleryImg"
-                      src={'https://firebasestorage.googleapis.com/v0/b/alfaaz-a71da.appspot.com/o/carousel%2F6-min.jpg?alt=media&token=e5045a0b-1ee2-41c8-b6d4-910271468525'}
+                      src={'https://firebasestorage.googleapis.com/v0/b/alfaaz-a71da.appspot.com/o/carousel%2F7-min.jpg?alt=media&token=645163a2-358b-4f96-b737-30dfad8540c3'}
                       alt="Alfaaz gallery"
                       draggable="false"
                     />
@@ -89,7 +89,8 @@ function Gallery() {
                     <div className="lower1">
                       <img
                         className="galleryImg"
-                        src={'https://firebasestorage.googleapis.com/v0/b/alfaaz-a71da.appspot.com/o/carousel%2F7-min.jpg?alt=media&token=645163a2-358b-4f96-b737-30dfad8540c3'}
+                        
+                        src={'https://firebasestorage.googleapis.com/v0/b/alfaaz-a71da.appspot.com/o/carousel%2F2-min.jpg?alt=media&token=f536d136-f687-4cb7-8a87-caa2404c3b5c'}
                         alt="Alfaaz gallery"
                         draggable="false"
                       />

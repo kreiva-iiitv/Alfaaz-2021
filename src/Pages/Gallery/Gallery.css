@@ -30,7 +30,7 @@
 .largeImg {
   height: 539px;
   width: 100%;
-  object-fit: cover;
+  object-fit: strech;
   display: flex;
   margin: 0;
 }
@@ -68,7 +68,7 @@
 .upper {
   height: 50%;
   width: 100%;
-  object-fit: cover;
+  object-fit: strech;
   display: flex;
   margin-bottom: 10px;
 }
@@ -80,7 +80,7 @@
 .lower1 {
   height: 100%;
   width: 49%;
-  object-fit: cover;
+  object-fit: strech;
   display: flex;
 }
 
@@ -111,7 +111,7 @@
 .mobileGallery__container__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: strech;
 }
 
 .mobileGallery {
@@ -149,7 +149,7 @@
 }
 
 .galleryImg {
-  object-fit: cover;
+  object-fit: strech;
 }
 
 .mobileGallery__container {
