@@ -12,6 +12,7 @@
 }
 .book-img {
   position: relative;
+
 }
 .booklogo {
   position: absolute;
@@ -157,6 +158,12 @@
     line-height: 10px;
     top: -225px;
     left: 180px;
+  }
+  .book-img{
+    display:none;
+  }
+  .book-text{
+    display:none;
   }
 }
 

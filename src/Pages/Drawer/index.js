@@ -1,6 +1,7 @@
 import React from "react";
 import "./Drawer.css";
-import "font-awesome/css/font-awesome.min.css";
+import Handle from "../Handle";
+
 import { NavLink } from "react-router-dom";
 
 const Drawer = (props) => {
@@ -16,7 +17,7 @@ const Drawer = (props) => {
             <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/'>HOME</NavLink>
             </div>
             <div className="side__tab">
-            <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/events'>EVENTS</NavLink>
+            <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/Event'>EVENTS</NavLink>
             </div>
             <div className="side__tab">
             <NavLink onClick={props.closed} exact activeClassName="mobile__active" style={{ textDecoration: 'none', color: '#2f1728' }} to='/members'>MEMBERS</NavLink>
@@ -26,18 +27,7 @@ const Drawer = (props) => {
             </div>
         </div>
 
-        <div className="side__handles">
-            <div>
-                <a href="https://www.facebook.com/iiitvlitclub/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook-square"></i></a>
-            </div>
-            <div>
-                <a href="https://www.instagram.com/alfaaz_iiitv/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
-            </div>
-            <div>
-                <a href="https://www.facebook.com/iiitvlitclub/" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
-            </div>
-        </div>
-
+       <Handle />
     </div>
 
 );

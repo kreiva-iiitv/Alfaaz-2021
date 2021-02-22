@@ -50,17 +50,14 @@ function Landing() {
           </div>
 
           <div className="border-line"></div>
-
-          <div className="main-section">
+            <div className="main-section">
             <div className="landing__text--font landing__text--section">
               ALFAAZ
             </div>
-
-            <div className="landing__text--font landing__text--virtual">
+             <div className="landing__text--font landing__text--virtual">
               A Virtual Fest
             </div>
-
-            <div className="timer">
+<div className="timer">
               <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
@@ -70,11 +67,10 @@ function Landing() {
                     <h1 className="time-text">{timerDays % 10}</h1>
                   </div>
                 </div>
-                <div className="days-content">
+                <div className="time-content">
                   <p>DAYS</p>
                 </div>
               </div>
-
               <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
@@ -84,13 +80,11 @@ function Landing() {
                     <h1 className="time-text">{timerHours % 10}</h1>
                   </div>
                 </div>
-
-                <div className="hours-content">
+                <div className="time-content">
                   <p>HOURS</p>
                 </div>
-              </div>
-
-              <div className="timer-style">
+             </div>
+             <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
                     <h1 className="time-text">{parseInt(timerMinutes / 10)}</h1>
@@ -99,12 +93,10 @@ function Landing() {
                     <h1 className="time-text">{timerMinutes % 10}</h1>
                   </div>
                 </div>
-
-                <div className="minutes-content">
+            <div className="time-content">
                   <p>MINUTES</p>
                 </div>
               </div>
-
               <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
@@ -114,19 +106,16 @@ function Landing() {
                     <h1 className="time-text">{timerSeconds % 10}</h1>
                   </div>
                 </div>
-
-                <div className="seconds-content">
+              <div className="time-content">
                   <p>SECONDS</p>
                 </div>
               </div>
             </div>
           </div>
-
           <div className="handle-section">
             <Handle />
           </div>
-
-          <div className="border-line2"></div>
+             <div className="border-line2"></div>
           <div className="lower-img">
             <img src={hindilogo} className="hindi-img" alt="hindi A" />
           </div>
