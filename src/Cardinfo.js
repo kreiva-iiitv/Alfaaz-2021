@@ -29,6 +29,17 @@ const Cardinfo = [
     members:"Anshuman singh"
 
   },
+  {
+    id: 4,
+    worth: "5000",
+    venue: "London",
+    date: "Beyonce",
+    convenor:"SAMPLE",
+    coconvenor:"SAMPLE",
+    members:"Anshuman singh"
+
+  }
+
 
 ];
 

@@ -9,7 +9,7 @@
   width: 528px;
   height: 302px;
   margin: auto;
-  margin-bottom: -30px;
+  margin-bottom: -50px;
 }
 .time-text {
   color: white;
@@ -27,6 +27,7 @@
   font-size: 36px;
   line-height: 39px;
   text-align: center;
+  padding-bottom: 40px;
 
   color: #ff6b71;
 }
@@ -182,6 +183,7 @@
     width :270px;
 
     height: 100px;
+    padding-left: 20px;
 
     text-align: left;
   }
@@ -242,5 +244,8 @@
   }
   .handle-section{
     display: none;
+  }
+  .timer{
+    padding-left: 30px;
   }
 }

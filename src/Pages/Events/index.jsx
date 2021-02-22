@@ -7,42 +7,20 @@ import Footer from "../Footer";
 
 const Events = () => {
   return <div>
-
-  <Header />
-
+<Header />
   <div className ="heading">EVENTS </div>
-<Cards
-worth = {Cardinfo[0].worth}
-venue =  {Cardinfo[0].venue}
-date= {Cardinfo[0].date}
-convenor={Cardinfo[0].convenor}
-coconvenor={Cardinfo[0].coconvenor}
-members={Cardinfo[0].members}
-
-/>
-<Cards
-worth = {Cardinfo[1].worth}
-venue =  {Cardinfo[1].venue}
-date= {Cardinfo[1].date}
-convenor={Cardinfo[1].convenor}
-coconvenor={Cardinfo[1].coconvenor}
-members={Cardinfo[1].members}
-
-/>
-<Cards
-worth = {Cardinfo[2].worth}
-venue =  {Cardinfo[2].venue}
-date= {Cardinfo[2].date}
-convenor={Cardinfo[2].convenor}
-coconvenor={Cardinfo[2].coconvenor}
-members ={Cardinfo[2].members}
-
-/>
-
+  {Cardinfo.map(card=>(
+    <Cards
+    worth = {card.worth}
+    venue =  {card.venue}
+    date= {card.date}
+    convenor={card.convenor}
+    coconvenor={card.coconvenor}
+    members={card.members}
+  />
+  ))
+}
 <Footer/>
-
-
-  </div>;
+</div>;
 };
-
 export default Events;
