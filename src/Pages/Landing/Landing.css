@@ -9,7 +9,7 @@
   width: 528px;
   height: 302px;
   margin: auto;
-  margin-bottom: -30px;
+  margin-bottom: -50px;
 }
 .time-text {
   color: white;
@@ -27,6 +27,7 @@
   font-size: 36px;
   line-height: 39px;
   text-align: center;
+  padding-bottom: 40px;
 
   color: #ff6b71;
 }
@@ -38,7 +39,10 @@
 }
 .timer-style {
   display: grid;
-  margin: 30px;
+  margin-right: 30px;
+}
+.timer-style1{
+  display:grid;
 }
 
 .timer-box {
@@ -61,7 +65,7 @@
 .lower-img {
   position: absolute;
   text-align: right;
-  bottom: -50px;
+  top:450px;
   right: 0px;
 }
 .hindi-img {
@@ -90,13 +94,13 @@
 }
 .border-line2 {
   position: absolute;
-  width: 860px;
+  width: 925px;
   height: 0px;
   border: 1px solid #2f1728;
   transform: rotate(90.1deg);
   background-color: #2f1728;
   z-index: 10;
-  right: -330px;
+  right: -350px;
   top: 0px;
 }
 
@@ -104,8 +108,9 @@
   .landing {
     width: 100%;
   }
+
   .landing__text--section {
-    font-size: 160px;
+    font-size: 130px;
     line-height: 80.1%;
     width: 400px;
     height: 190px;
@@ -116,9 +121,7 @@
   .landing__text--virtual {
     display: none;
   }
-  .timer {
-    width: 100%;
-  }
+
   .time-text {
     font-size: 16px;
   }
@@ -135,7 +138,7 @@
   }
 
   .lower-img {
-    bottom: 0px;
+    top: 510px;
     right: 0px;
   }
   .hindi-img {
@@ -170,37 +173,43 @@
   }
   .handle-section {
     padding-top: 60px;
+
   }
 }
 
 @media (max-width: 600px) {
   .landing__text--section {
     font-size: 100px;
-    line-height: 80.1%;
-    width: 400px;
+    width :270px;
+
     height: 100px;
-    margin: auto;
-    text-align: center;
+    padding-left: 20px;
+
+    text-align: left;
   }
   .box1 {
-    margin-right: 10px;
-    width: 20px;
-    height: 30px;
+    margin-right: 1px;
+    width: 30px;
+    height: 40px;
     border-radius: 5px;
   }
   .box2 {
-    width: 20px;
-    height: 30px;
+    width: 30px;
+    height: 40px;
     border-radius: 5px;
   }
+
   .time-text {
-    font-size: 10px;
+    font-size: 15px;
   }
-  .timer-style {
-    margin: 15px;
+  .time-content{
+    font-size: 0.5rem;
+  }
+  .timer-box {
+    margin-right: -1px;
   }
   .lower-img {
-    bottom: 130px;
+    top:390px;
     right: 0px;
   }
   .hindi-img {
@@ -227,10 +236,20 @@
     top: 0px;
   }
   .border-line2 {
-    width: 830px;
+    width: 780px;
     height: 0px;
 
     right: -380px;
     top: 0px;
+  }
+  .handle-section{
+    display: none;
+  }
+  .timer{
+    padding-left: 30px;
+  }
+  .timer-style {
+
+    margin-right: 15px;
   }
 }

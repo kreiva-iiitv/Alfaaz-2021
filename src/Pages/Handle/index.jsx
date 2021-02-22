@@ -12,7 +12,7 @@ class Handle extends Component {
         <div>
           <a
             className="s"
-            href="https://www.instagram.com/alfaaz_iiitv/"
+            href="https://www.facebook.com/iiitvlitclub/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -42,7 +42,7 @@ class Handle extends Component {
         <div>
           <a
             className="s"
-            href="https://www.instagram.com/alfaaz_iiitv/"
+            href="https://twitter.com/alfaaz_iiitv"
             target="_blank"
             rel="noopener noreferrer"
           >
