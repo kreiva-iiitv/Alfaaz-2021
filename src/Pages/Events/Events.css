@@ -1,5 +1,5 @@
-.heading{
- font-family: "Homenaje";
+.heading {
+  font-family: "Homenaje";
   font-style: normal;
   font-weight: normal;
   font-size: 100px;
@@ -8,28 +8,31 @@
 
   text-align: center;
 
-  color: #FF6B71;
+  color: #ff6b71;
 }
 
-@media (max-width:800px){
-  body{
-
-  /* padding-left:  80px; */
-  overflow-x: hidden;
-
+@media (min-width: 800px) {
+  .spacing {
+    display: none;
   }
-  .heading{
+}
+
+@media (max-width: 800px) {
+  body {
+    /* padding-left:  80px; */
+    overflow-x: hidden;
+  }
+  .heading {
     padding-left: 100px;
-
   }
 }
-@media (max-width:650px){
-  body{
-overflow-x: hidden;
-/* text-align: center; */
-  /* padding-left:  80px; */
+@media (max-width: 650px) {
+  body {
+    overflow-x: hidden;
+    /* text-align: center; */
+    /* padding-left:  80px; */
   }
-  .heading{
+  .heading {
     padding-left: 0;
     font-size: 70px;
   }

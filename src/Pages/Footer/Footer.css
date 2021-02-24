@@ -1,5 +1,4 @@
 footer {
-  /* background-image: linear-gradient(to right, #350844, #3e3769); */
   background-color: #2f1728;
   display: flex;
   flex-direction: column;
@@ -68,7 +67,7 @@ footer {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .conna {
@@ -82,11 +81,11 @@ footer {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-    opacity: 0.7;
+  opacity: 0.7;
 }
 .linktext {
   color: #ffffff;
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .link,
@@ -101,7 +100,7 @@ footer {
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .con-details {
@@ -115,7 +114,6 @@ footer {
   height: 0.5vh;
   border-radius: 4px;
   width: 100%;
-  
 }
 
 .lastline {
