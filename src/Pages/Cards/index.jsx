@@ -92,14 +92,12 @@ function Cards(props) {
     <div className="card">
       <div className="card-main">
         <div className="card-heading">
-          {" "}
-          <b> MASK DECORATION </b>{" "}
+          <b> MASK DECORATION </b>
         </div>
         <div className="card-content">
-          {" "}
           Participants have to decorate a simple mask in the most creative and
           artistic way. Participants are free to use any colours and decorating
-          materials like glitters.{" "}
+          materials like glitters.
         </div>
         <div className="card-styles">
           <div className="sub-heading"> Prize worth </div>

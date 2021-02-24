@@ -114,15 +114,13 @@
 @media (max-width: 650px) {
   .card {
     width: 375px;
-    height: 350px;
-    padding-top: 40px;
+    height: 370px;
+    padding-top: 25px;
   }
   .card-main {
     width: 375px;
-    height: 350px;
-    padding-top: 50px;
-    overflow-y: auto;
-    overflow-x: hidden;
+    height: 370px;
+    padding-top: 25px;
   }
   .button1 {
     padding-right: 80px;
@@ -139,7 +137,7 @@
   }
   .card-content {
     line-height: 16px;
-    width: 150px;
+    /* width: 150px; */
     font-weight: normal;
     padding-left: 115px;
     text-align: left;
@@ -149,7 +147,7 @@
     font-size: 12px;
   }
   .card-styles {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
   .content {
     font-size: 12px;
@@ -159,7 +157,7 @@
   }
   .button {
     display: grid;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
   .content-styles {
     font-family: Manrope;
@@ -181,9 +179,9 @@
     padding-left: 45px;
   }
   .content5 {
-    padding-left: 25px;
+    padding-left: 23px;
   }
   .content6 {
-    padding-left: 30px;
+    padding-left: 45px;
   }
 }
