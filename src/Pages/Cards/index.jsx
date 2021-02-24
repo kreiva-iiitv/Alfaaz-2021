@@ -103,27 +103,27 @@ function Cards(props) {
         </div>
         <div className="card-styles">
           <div className="sub-heading"> Prize worth </div>
-          <div className="content"> {props.worth} </div>
+          <div className="content1 content-styles "> {props.worth} </div>
         </div>
         <div className="card-styles">
           <div className="sub-heading"> Venue </div>
-          <div className="content"> {props.venue} </div>
+          <div className="content2 content-styles"> {props.venue} </div>
         </div>
         <div className="card-styles">
           <div className="sub-heading"> Date and Time </div>
-          <div className="content"> {props.date} </div>
+          <div className="content3 content-styles"> {props.date} </div>
         </div>
         <div className="card-styles">
           <div className="sub-heading"> Convenor </div>
-          <div className="content"> {props.convenor} </div>
+          <div className="content4 content-styles"> {props.convenor} </div>
         </div>
         <div className="card-styles">
           <div className="sub-heading"> Co - convenor </div>
-          <div className="content"> {props.coconvenor} </div>}{" "}
+          <div className="content5 content-styles"> {props.coconvenor} </div>
         </div>
         <div className="card-styles">
           <div className="sub-heading"> Members </div>
-          <div className="content"> {props.members} </div>
+          <div className="content6 content-styles"> {props.members} </div>
         </div>
         <div className="button">
           <div className="button1">

@@ -10,12 +10,12 @@ function Header({ opened }) {
         <NavLink className="navstyles" to="/">
           <div className="tabs__logo__tab active">HOME</div>
         </NavLink>
-        <NavLink className="navstyles" to="/Event">
+        <NavLink className="navstyles" to="/EventsTimeline">
           <div className="tabs__logo__tab ">EVENTS</div>
         </NavLink>
 
-        <NavLink className="navstyles" to="/members">
-          <div className="tabs__logo__tab ">MEMBERS</div>
+        <NavLink className="navstyles" to="/Members">
+          <div className="tabs__logo__tab ">Members</div>
         </NavLink>
         <a className="navstyles" href="https://kreiva.tk/media/brochure.pdf">
           <div className="tabs__logo__tab ">BROCHURE</div>
