@@ -1,15 +1,16 @@
 import React from "react";
-
+import EventHeader from "../../Component/EventHeader/EventHeader";
 import Cards from "../Cards";
-import "./Events.css";
+import "./EventsTimeline.css";
 import Cardinfo from "../../Cardinfo.js";
 import Footer from "../Footer";
 import NavigationHelper from "../NavigationHelper";
 
-const Events = () => {
+const EventsTimeline = () => {
   return (
     <div>
       <NavigationHelper />
+      <EventHeader />
       <div className="heading">EVENTS </div>
       {Cardinfo.map((card) => (
         <Cards
@@ -21,9 +22,8 @@ const Events = () => {
           members={card.members}
         />
       ))}
-
       <Footer />
     </div>
   );
 };
-export default Events;
+export default EventsTimeline;

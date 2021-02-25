@@ -14,6 +14,9 @@
   color: #fa6d75;
   text-decoration: none;
 }
+.logo-img {
+  margin: 20px;
+}
 
 .tabs__logo {
   height: 116px;
@@ -40,7 +43,7 @@
 }
 
 .active {
-  /* border-bottom: 5px solid #821169; */
+  /* border-bottom: 5px solid #fa6d75; */
 }
 
 .tabs__logo__tab:hover {
@@ -48,30 +51,19 @@
   cursor: pointer;
 }
 
-/* .tabs__logo--date {
-  font-size: 0.7em;
-  color: #821169;
-} */
-
-.mobile__tabs {
-  height: 39px;
+.mobile-tabs-header {
   width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 39px;
-  padding-top: 15px;
-  padding-bottom: 14px;
-  background-color: #fff5da;
+
+  padding-top: 16px;
+
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
   z-index: 8;
 }
-
 .mobile__tabs__logo {
-  height: 39px;
-  width: 66px;
+  height: 60px;
+  width: 30px;
 }
 
 .blank {
@@ -79,8 +71,14 @@
   height: 30px;
   width: 40px;
 }
+.hamburger-tab {
+  position: absolute;
+  right: 10px;
+}
 
 .hamburger {
+  /* position: absolute;
+  right: 10; */
   color: #821169;
   font-size: 20px;
   padding-right: 15.5px;
@@ -89,6 +87,9 @@
 
 @media screen and (min-width: 600px) {
   .mobile__tabs {
+    display: none;
+  }
+  .mobile-tabs-header {
     display: none;
   }
 }

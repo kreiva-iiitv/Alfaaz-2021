@@ -11,12 +11,6 @@
   color: #ff6b71;
 }
 
-@media (min-width: 800px) {
-  .spacing {
-    display: none;
-  }
-}
-
 @media (max-width: 800px) {
   body {
     /* padding-left:  80px; */
