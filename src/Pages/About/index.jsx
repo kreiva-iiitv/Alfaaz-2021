@@ -4,47 +4,38 @@ import booklogo from "../../Assets/booklogo.svg";
 
 function About() {
   return (
-    <div className="About__root">
-      <div className="About__text left-section">
-        <div className="About__text--heading About__font">ABOUT</div>
-        <div className="About__text--content About__font">
-          Alfaaz is the Annual Literature Festival of Indian Institute of
-          Information Technology, Vadodara. It is organized by the Literature
-          Committee IIIT Vadodara and serves as a platform for literarians to
-          showcase their knowledge, creativity and skills.
-          <br />
-          <br />
-          It has a complete dose of mainstream events including open mic, poetry
-          & microstory writing, fan fiction , spell bee and fun events such as
-          guess the gibberish and many more. The festival offers a unique
-          opportunity to hear some of the greatest contemporary literary
-          stalwarts together on a single platform that brings diverse thoughts &
-          opinions, and upholds freedom of thought & expression during the
-          five-day mega event.
-          <br />
-          <br />
-          Join us to celebrate creativity, join us, to celebrate Alfaaz!
+    <section className="About__root">
+      <p className="About__root--title">About</p>
+      <section className="About--container">
+        <section className="About--textContainer">
+          Kreiva is the Annual Cultural Festival of IIIT Vadodara tentative test
+          dates are as follows : 28th - 29th October . This page is handled by
+          the students of the cultural committee of the institute. Kreiva - the
+          IIIT Vadodara's Annual Cultural Festival is a Platform to showcase the
+          best in us and to strive for more. The Fest was started in the year
+          2016 on an Intra-college level which in itself was a quite success.
+          The fest is basically a platform for students to express their
+          feelings and opinions through art, music, dance, drama, in short, the
+          mediums that connect with masses. Come; Let's Celebrate this feeling
+          of togetherness on public stage!! !! Welcome to Kreiva, IIIT Vadodara
+          !!
+        </section>
+        <div className="About--imgContainer">
+          <img src="/media/booklogo.svg" />
+          <section className="About--imgContainer--overlay">
+            <p className="About--imgContainer--book--1">
+              60 K+<span>worth prize to win</span>
+            </p>
+            <p className="About--imgContainer--book--1">
+            14 D+<span>long fest</span>
+            </p>
+            <p className="About--imgContainer--book--1">
+            20+<span>events to participate</span>
+            </p>
+          </section>
         </div>
-      </div>
-      <div className="right-section">
-        <div className="book-img">
-          <img src={booklogo} alt="book-logo" className="booklogo"></img>
-        </div>
-
-        <div className="book-text">
-          <p className="book-heading1 bookstyles">60 K+</p>
-          <p className="book-content1 bookstyles">worth prize to win</p>
-        </div>
-        <div className="book-text">
-          <p className="book-heading2 bookstyles">14 D+</p>
-          <p className="book-content2 bookstyles">long fest</p>
-        </div>
-        <div className="book-text">
-          <p className="book-heading3 bookstyles">20+</p>
-          <p className="book-content3 bookstyles">events to participate</p>
-        </div>
-      </div>
-    </div>
+      </section>
+    </section>
   );
 }
 
