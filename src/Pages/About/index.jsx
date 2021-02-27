@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import booklogo from "../../Assets/booklogo.svg";
 
 function About() {
   return (
