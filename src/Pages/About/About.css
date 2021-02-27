@@ -2,6 +2,7 @@
   padding-left: 113px;
   font-family: Manrope;
   color: #2f1728;
+  overflow-x: hidden;
 }
 
 .About__root--title {
@@ -84,16 +85,16 @@
 
 @media only screen and (max-width: 960px) {
   .About__root {
-    padding: 0;
+    padding: 0 10px;
   }
   .About--container {
     flex-direction: column;
   }
-  ..About__root--title {
+  .About__root--title {
     font-size: 18px;
   }
   .About--textContainer {
-    width: 100vw;
+    width: auto;
   }
   .About--imgContainer {
     margin-top: 80px;

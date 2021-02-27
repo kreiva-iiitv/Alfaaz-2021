@@ -13,6 +13,7 @@
 }
 .time-text {
   color: white;
+  font-size: 72px;
 }
 
 .landing {
@@ -40,13 +41,15 @@
 .timer-style {
   display: grid;
   margin-right: 30px;
+  grid-row-gap: 10px;
 }
-.timer-style1{
-  display:grid;
+.timer-style1 {
+  display: grid;
 }
 
 .timer-box {
   display: flex;
+  font-family: "Homenaje";
 }
 
 .box1 {
@@ -65,20 +68,21 @@
 .lower-img {
   position: absolute;
   text-align: right;
-  top:450px;
+  top: 450px;
   right: 0px;
 }
 .hindi-img {
-  height: 350px;
+  height: 100%;
 }
 .upper-img {
   position: absolute;
   text-align: left;
   top: 150px;
   left: 30px;
+  height: 40%;
 }
 .english-img {
-  height: 350px;
+  height: 100%;
 }
 .border-line {
   position: absolute;
@@ -104,6 +108,27 @@
   top: 0px;
 }
 
+@media only screen and (max-width: 1280px) {
+  .upper-img {
+    left: -10px;
+    height: 30%;
+    top: 103px;
+  }
+  .border-line {
+    width: 300px;
+    left: -75px;
+  }
+  .lower-img {
+    left: -10px;
+    height: 30%;
+    top: 600px;
+  }
+  .border-line2 {
+    width: 1214px;
+    right: -546px;
+  }
+}
+
 @media (max-width: 800px) {
   .landing {
     width: 100%;
@@ -123,7 +148,7 @@
   }
 
   .time-text {
-    font-size: 16px;
+    font-size: 36px;
   }
   .box1 {
     margin-right: 10px;
@@ -138,7 +163,7 @@
   }
 
   .lower-img {
-    top: 510px;
+    top: 545px;
     right: 0px;
   }
   .hindi-img {
@@ -148,39 +173,35 @@
   .upper-img {
     position: absolute;
     text-align: left;
-    top: 80px;
+    top: 69px;
     left: 0px;
+    height: 23%;
   }
-  .english-img {
-    height: 155px;
-    width: 160px;
-  }
+
   .main-section {
     padding-top: 150px;
   }
   .border-line {
     width: 220px;
     height: 0px;
-    left: -35px;
+    left: -39px;
     top: 0px;
   }
   .border-line2 {
-    width: 1020px;
+    width: 1100px;
     height: 0px;
-
-    right: -480px;
+    right: -499px;
     top: 0px;
   }
   .handle-section {
     padding-top: 60px;
-
   }
 }
 
 @media (max-width: 600px) {
   .landing__text--section {
     font-size: 100px;
-    width :270px;
+    width: 270px;
 
     height: 100px;
     padding-left: 20px;
@@ -200,16 +221,16 @@
   }
 
   .time-text {
-    font-size: 15px;
+    font-size: 36px;
   }
-  .time-content{
+  .time-content {
     font-size: 0.5rem;
   }
   .timer-box {
     margin-right: -1px;
   }
   .lower-img {
-    top:390px;
+    top: 390px;
     right: 0px;
   }
   .hindi-img {
@@ -242,14 +263,13 @@
     right: -380px;
     top: 0px;
   }
-  .handle-section{
+  .handle-section {
     display: none;
   }
-  .timer{
+  .timer {
     padding-left: 30px;
   }
   .timer-style {
-
     margin-right: 15px;
   }
 }

@@ -73,12 +73,10 @@
 }
 .hamburger-tab {
   position: absolute;
-  right: 10px;
+  left: 10px;
 }
 
 .hamburger {
-  /* position: absolute;
-  right: 10; */
   color: #821169;
   font-size: 20px;
   padding-right: 15.5px;
