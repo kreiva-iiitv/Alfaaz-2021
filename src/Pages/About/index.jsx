@@ -21,7 +21,7 @@ function About() {
           !!
         </section>
         <div className="About--imgContainer">
-          <img src="/media/booklogo.svg" />
+          <img src="/media/booklogo.svg" alt="books-logo" />
           <section className="About--imgContainer--overlay">
             <p className="About--imgContainer--book--1">
               60 K+<span>worth prize to win</span>
