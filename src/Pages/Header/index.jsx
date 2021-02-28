@@ -11,7 +11,7 @@ function Header({ opened }) {
         <NavLink className="navstyles" to="/">
           <div className="tabs__logo__tab active">HOME</div>
         </NavLink>
-        <NavLink className="navstyles" to="/EventsTimeline">
+        <NavLink className="navstyles" to="/events">
           <div className="tabs__logo__tab ">EVENTS</div>
         </NavLink>
 
@@ -21,7 +21,7 @@ function Header({ opened }) {
           </div>
         </NavLink>
 
-        <NavLink className="navstyles" to="/Members">
+        <NavLink className="navstyles" to="/members">
           <div className="tabs__logo__tab ">Members</div>
         </NavLink>
         <a className="navstyles" href="https://kreiva.tk/media/brochure.pdf">

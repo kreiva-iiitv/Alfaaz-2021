@@ -30,51 +30,27 @@ const Timeline = (props) => {
   const TimelineCards =
     props.events !== ""
       ? props.events.map((event, i) => {
-          if (i % 2) {
-            return (
-              <Fade left>
-                <div className="timeline__card">
-                  <TimelineCard
-                    title={event.name}
-                    description={event.long_description}
-                    prize={event.prize}
-                    startDate={parseDate(event.start_time)}
-                    endDate={parseDate(event.end_time)}
-                    startTime={parseTime(event.start_time)}
-                    endTime={parseTime(event.end_time)}
-                    currentSlide={currentSlide}
-                    index={i}
-                    onCardMouseEvent={onCardMouseEvent}
-                  />
-                  {i < props.events.length - 1 ? (
-                    <hr className="timeline__hr" />
-                  ) : null}
-                </div>
-              </Fade>
-            );
-          } else {
-            return (
-              <Fade right>
-                <div className="timeline__card">
-                  <TimelineCard
-                    title={event.name}
-                    description={event.long_description}
-                    prize={event.prize}
-                    startDate={parseDate(event.start_time)}
-                    endDate={parseDate(event.end_time)}
-                    startTime={parseTime(event.start_time)}
-                    endTime={parseTime(event.end_time)}
-                    currentSlide={currentSlide}
-                    index={i}
-                    onCardMouseEvent={onCardMouseEvent}
-                  />
-                  {i < props.events.length - 1 ? (
-                    <hr className="timeline__hr" />
-                  ) : null}
-                </div>
-              </Fade>
-            );
-          }
+          return (
+            <Fade right>
+              <div className="timeline__card">
+                <TimelineCard
+                  title={event.name}
+                  description={event.long_description}
+                  prize={event.prize}
+                  startDate={parseDate(event.start_time)}
+                  endDate={parseDate(event.end_time)}
+                  startTime={parseTime(event.start_time)}
+                  endTime={parseTime(event.end_time)}
+                  currentSlide={currentSlide}
+                  index={i}
+                  onCardMouseEvent={onCardMouseEvent}
+                />
+                {i < props.events.length - 1 ? (
+                  <hr className="timeline__hr" />
+                ) : null}
+              </div>
+            </Fade>
+          );
         })
       : undefined;
 

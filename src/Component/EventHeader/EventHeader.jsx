@@ -9,7 +9,7 @@ function EventHeader(props) {
   return (
     <div className="EventHeader">
       <ul className="EventHeader__list">
-        <NavLink className="EventHeader__list__link" to="/EventsTimeline">
+        <NavLink className="EventHeader__list__link" to="/events">
           <li
             style={{ borderBottom: style }}
             className="EventHeader__list__item"
