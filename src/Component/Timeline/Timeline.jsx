@@ -10,23 +10,6 @@ const Timeline = (props) => {
     setCurrentSlide(slideIndex);
   };
 
-  const parseDate = (date) => `${date[8]}${date[9]} March 2021`;
-  const parseTime = (time) => {
-    let period = `AM`;
-    let hours = Number(`${time[11]}${time[12]}`);
-    const minutes =
-      Number(`${time[14]}${time[15]}`) !== 0
-        ? Number(`${time[14]}${time[15]}`)
-        : `00`;
-    if (hours > 12) {
-      hours = hours - 12;
-      period = `PM`;
-    } else if (hours === 0) {
-      hours = 12;
-    }
-    return `${hours}:${minutes} ${period}`;
-  };
-
   const TimelineCards =
     props.events !== ""
       ? props.events.map((event, i) => {
