@@ -30,7 +30,7 @@
 .largeImg {
   height: 539px;
   width: 100%;
-  object-fit: strech;
+  object-fit: fill;
   display: flex;
   margin: 0;
 }
