@@ -11,9 +11,10 @@ const TimelineIndex = () => {
   useEffect(() => {
     async function fetchAPI() {
       setIsLoading(true);
-      const res = await fetch("https://gaurkrishna.pythonanywhere.com/event/");
+      const res = await fetch("https://sheet.best/api/sheets/e7fb214f-726c-4ac7-8d84-a354edeaffc2");
       const data = await res.json();
-      setEvents(data.Events);
+      console.log(data)
+      setEvents(data);
       setIsLoading(false);
       window.scroll(0, 0);
     }

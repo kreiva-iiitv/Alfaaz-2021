@@ -37,10 +37,10 @@ const Timeline = (props) => {
                   title={event.name}
                   description={event.long_description}
                   prize={event.prize}
-                  startDate={parseDate(event.start_time)}
-                  endDate={parseDate(event.end_time)}
-                  startTime={parseTime(event.start_time)}
-                  endTime={parseTime(event.end_time)}
+                  startDate={event.start_date}
+                  endDate={event.end_date}
+                  startTime={event.start_time}
+                  endTime={event.end_time}
                   currentSlide={currentSlide}
                   index={i}
                   onCardMouseEvent={onCardMouseEvent}

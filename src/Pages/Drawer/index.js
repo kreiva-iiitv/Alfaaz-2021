@@ -29,7 +29,7 @@ const Drawer = (props) => {
             exact
             activeClassName="mobile__active"
             style={{ textDecoration: "none", color: "#2f1728" }}
-            to="/EventsTimeline"
+            to="/events"
           >
             EVENTS
           </NavLink>

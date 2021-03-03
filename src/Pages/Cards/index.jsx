@@ -92,13 +92,9 @@ function Cards(props) {
     <div className="card">
       <div className="card-main">
         <div className="card-heading">
-          <b> MASK DECORATION </b>
+          <b> {props.name} </b>
         </div>
-        <div className="card-content">
-          Participants have to decorate a simple mask in the most creative and
-          artistic way. Participants are free to use any colours and decorating
-          materials like glitters.
-        </div>
+        <div className="card-content">{props.long_description}</div>
         <div className="card-styles">
           <div className="sub-heading"> Prize worth </div>
           <div className="content1 content-styles "> {props.worth} </div>
@@ -140,6 +136,9 @@ function Cards(props) {
               color="primary"
               disableRipple
               className={classes.margin}
+              href={props.reg_link}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Register
             </CardButton2>

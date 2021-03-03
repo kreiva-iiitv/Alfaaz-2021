@@ -113,14 +113,15 @@
 }
 @media (max-width: 650px) {
   .card {
-    width: 375px;
-    height: 370px;
-    padding-top: 25px;
+    width: 100%;
+    height: max-content;
+    padding:0;
+    padding-top: 10px;
     margin-bottom: 25px;
   }
   .card-main {
-    width: 375px;
-    height: 370px;
+    width: 100%;
+    height: max-content;
     padding-top: 25px;
   }
   .button1 {
@@ -134,13 +135,13 @@
   .card-heading {
     font-size: 25px;
     line-height: 23px;
-    padding-left: 75px;
+    padding-left: 85px;
   }
   .card-content {
     line-height: 16px;
-    /* width: 150px; */
     font-weight: normal;
-    padding-left: 115px;
+    padding-left: 95px;
+    padding-right: 5px;
     text-align: left;
   }
   .sub-heading {
