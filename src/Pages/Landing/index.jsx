@@ -61,10 +61,10 @@ function Landing() {
               <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
-                    <h1 className="time-text">{parseInt(timerDays / 10)}</h1>
+                    <span className="time-text">{parseInt(timerDays / 10)}</span>
                   </div>
                   <div className="box2">
-                    <h1 className="time-text">{timerDays % 10}</h1>
+                    <span className="time-text">{timerDays % 10}</span>
                   </div>
                 </div>
                 <div className="time-content">
@@ -74,10 +74,10 @@ function Landing() {
               <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
-                    <h1 className="time-text">{parseInt(timerHours / 10)}</h1>
+                    <span className="time-text">{parseInt(timerHours / 10)}</span>
                   </div>
                   <div className="box2">
-                    <h1 className="time-text">{timerHours % 10}</h1>
+                    <span className="time-text">{timerHours % 10}</span>
                   </div>
                 </div>
                 <div className="time-content">
@@ -87,10 +87,10 @@ function Landing() {
              <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
-                    <h1 className="time-text">{parseInt(timerMinutes / 10)}</h1>
+                    <span className="time-text">{parseInt(timerMinutes / 10)}</span>
                   </div>
                   <div className="box2">
-                    <h1 className="time-text">{timerMinutes % 10}</h1>
+                    <span className="time-text">{timerMinutes % 10}</span>
                   </div>
                 </div>
             <div className="time-content">
@@ -100,10 +100,10 @@ function Landing() {
               <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
-                    <h1 className="time-text">{parseInt(timerSeconds / 10)}</h1>
+                    <span className="time-text">{parseInt(timerSeconds / 10)}</span>
                   </div>
                   <div className="box2">
-                    <h1 className="time-text">{timerSeconds % 10}</h1>
+                    <span className="time-text">{timerSeconds % 10}</span>
                   </div>
                 </div>
               <div className="time-content">
