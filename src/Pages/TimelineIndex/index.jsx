@@ -3,6 +3,7 @@ import Footer from "../Footer";
 import EventHeader from "../../Component/EventHeader/EventHeader";
 import Timeline from "../../Component/Timeline/Timeline";
 import NavigationHelper from "../NavigationHelper";
+import Loader from "../../Component/Loader/Loader";
 
 const TimelineIndex = () => {
   const [events, setEvents] = useState([]);
@@ -25,12 +26,8 @@ const TimelineIndex = () => {
       <NavigationHelper />
       <EventHeader timeline={true} />
       {isLoading ? (
-        <div className="CardContainer">
-          <div className="lds-facebook">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
+        <div className ="Loader-Container">
+        <Loader></Loader>
         </div>
       ) : (
         <Timeline events={events} />
