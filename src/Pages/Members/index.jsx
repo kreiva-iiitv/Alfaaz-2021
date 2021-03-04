@@ -4,6 +4,7 @@ import Navbar from "../../Component/Navbar";
 import "./Members.css";
 import Footer from "../Footer";
 import NavigationHelper from "../NavigationHelper";
+import Loader from "../../Component/Loader/Loader";
 
 const Members = () => {
   const [teams, setTeams] = useState("");
@@ -58,14 +59,11 @@ const Members = () => {
       />
       <div className="members">
         {isLoading ? (
-          <div className="lds-facebook">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
+          <Loader></Loader>
         ) : (
           CurrentTabMembers
         )}
+        {/* <Loader></Loader> */}
       </div>
       <Footer />
     </React.Fragment>

@@ -11,10 +11,6 @@
   margin: 40px auto 84px;
 }
 
-.members>.lds-facebook{
-  margin: 0 auto;
-}
-
 @media (max-width: 1280px) and (min-width: 1080px) {
   .members {
     column-gap: 199.11px;

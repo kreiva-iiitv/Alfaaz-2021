@@ -11,6 +11,9 @@
   color: #ff6b71;
 }
 
+.Loader-Container{
+  margin: 0 50%;
+}
 @media (max-width: 800px) {
   body {
     /* padding-left:  80px; */

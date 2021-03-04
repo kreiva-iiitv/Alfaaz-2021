@@ -4,6 +4,7 @@ import Cards from "../Cards";
 import "./EventsTimeline.css";
 import Footer from "../Footer";
 import NavigationHelper from "../NavigationHelper";
+import Loader from "../../Component/Loader/Loader";
 
 const EventsTimeline = () => {
   const [events, setEvents] = useState([]);
@@ -29,7 +30,9 @@ const EventsTimeline = () => {
       <EventHeader />
       <div className="heading">EVENTS </div>
       {isLoading ? (
-        <React.Fragment>Loading....</React.Fragment>
+        <div className = "Loader-Container">
+        <Loader></Loader>
+        </div>
       ) : (
         <React.Fragment>
           {events.map((card) => (
